@@ -1,0 +1,41 @@
+(function($B){
+$B.builtin_class_flags = {
+    builtins: {
+        1073763584: ['ConnectionAbortedError', 'InterruptedError', 'MemoryError', 'IndexError', 'StopIteration', 'UnicodeTranslateError', 'BrokenPipeError', 'IndentationError', 'ZeroDivisionError', 'SyntaxWarning', 'IOError', 'ArithmeticError', 'EOFError', 'KeyboardInterrupt', 'ChildProcessError', 'ReferenceError', 'UserWarning', 'WindowsError', 'TimeoutError', 'RuntimeWarning', 'FileExistsError', 'ConnectionRefusedError', 'NotImplementedError', 'RecursionError', 'UnboundLocalError', 'ImportWarning', 'AssertionError', 'KeyError', 'DeprecationWarning', 'BlockingIOError', 'UnicodeDecodeError', 'UnicodeWarning', 'LookupError', 'Warning', 'PermissionError', 'FloatingPointError', 'TabError', 'EnvironmentError', 'BaseExceptionGroup', 'EncodingWarning', 'ConnectionError', 'BufferError', 'PendingDeprecationWarning', 'OverflowError', 'ConnectionResetError', 'FutureWarning', 'OSError', 'SystemError', 'ValueError', 'UnicodeError', 'UnicodeEncodeError', 'GeneratorExit', 'NotADirectoryError', 'ProcessLookupError', 'RuntimeError', 'IsADirectoryError', 'FileNotFoundError', 'SyntaxError', 'SystemExit', 'ResourceWarning', 'StopAsyncIteration', 'BytesWarning'],
+        1074287872: ['Exception', 'TypeError', 'ModuleNotFoundError', 'NameError', 'AttributeError', 'BaseException', 'ImportError'],
+        1073763840: ['ExceptionGroup'],
+        21500160: ['bool'],
+        4723968: ['float', 'bytearray'],
+        138941696: ['bytes'],
+        546048: ['property', 'staticmethod', 'classmethod', 'map'],
+        5376: ['complex'],
+        541611328: ['dict'],
+        21760: ['enumerate', 'filter', 'reversed', 'super', 'zip'],
+        4740352: ['frozenset', 'set'],
+        21501184: ['int'],
+        38294816: ['list'],
+        545056: ['memoryview'],
+        529664: ['object'],
+        528672: ['range'],
+        20736: ['slice'],
+        273159424: ['str'],
+        71849248: ['tuple'],
+        2148031744: ['type'],
+    },
+    types: {
+        20864: ['classmethod_descriptor', 'async_generator', 'method-wrapper'],
+        547200: ['builtin_function_or_method'],
+        20736: ['cell'],
+        4352: ['code'],
+        545152: ['coroutine', 'generator', 'member_descriptor', 'getset_descriptor', 'frame'],
+        528640: ['NotImplementedType', 'ellipsis', 'NoneType'],
+        678144: ['function'],
+        545088: ['mappingproxy'],
+        153984: ['method_descriptor'],
+        22784: ['method'],
+        546048: ['module'],
+        545024: ['traceback'],
+        676224: ['wrapper_descriptor'],
+    }
+}
+})(__BRYTHON__)
