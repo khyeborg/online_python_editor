@@ -1,5 +1,5 @@
 from browser import self as window
-import locale
+import _locale
 import javascript
 
 # Javascript Date constructor
